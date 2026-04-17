@@ -1,0 +1,23 @@
+{
+  "label": "triad_cpu",
+  "ep": "CPU",
+  "model": "/home/negro/Projects/onnx/.ryzen_ai-1.7.1/ryzen_ai-1.7.1/quicktest/test_model.onnx",
+  "iters": 2782,
+  "total_ms": 60012.17,
+  "throughput_ips": 46.36,
+  "p50_ms": 20.717,
+  "p95_ms": 31.029,
+  "p99_ms": 38.077,
+  "min_ms": 10.249,
+  "max_ms": 55.716,
+  "mean_ms": 21.572,
+  "ts_end_ms": 1776333513306,
+  "meta": {
+    "threads": 8,
+    "load_s": 0.06,
+    "providers": [
+      "CPUExecutionProvider"
+    ],
+    "affinity": "{0, 1, 2, 3, 4, 5, 6, 7}"
+  }
+}
