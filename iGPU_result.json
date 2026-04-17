@@ -1,0 +1,23 @@
+{
+  "label": "gpu",
+  "ep": "GPU(MIGraphXExecutionProvider)",
+  "model": "/home/negro/Projects/onnx/.ryzen_ai-1.7.1/ryzen_ai-1.7.1/quicktest/test_model.onnx",
+  "iters": 19971,
+  "total_ms": 59993.6,
+  "throughput_ips": 332.89,
+  "p50_ms": 2.91,
+  "p95_ms": 3.522,
+  "p99_ms": 4.306,
+  "min_ms": 2.759,
+  "max_ms": 6.699,
+  "mean_ms": 3.004,
+  "ts_end_ms": 1776339256273,
+  "meta": {
+    "backend": "ort-rocm",
+    "ort": "1.23.2",
+    "providers": [
+      "MIGraphXExecutionProvider",
+      "CPUExecutionProvider"
+    ]
+  }
+}
