@@ -1,0 +1,15 @@
+[hip] loading libxrt_hip.so
+[hip] loaded /opt/xilinx/xrt-hip/lib/libxrt_hip.so
+[hip] WARN missing symbols: ['hipGetDevice', 'hipDeviceSynchronize']
+[hip] hipGetDeviceCount rc=0 n_devices=1
+[hip] waiting on barrier /home/negro/Projects/onnx/.ryzen_ai-1.7.1/bench/results/matrix_20260416_053730/test_model__pin_all/campaign_20260416_053730/phase_triad/go.barrier
+[hip] barrier released
+[hip] alloc-latency: 2000 iters @ 4KiB
+[hip] bandwidth sweep: sizes_mb=[1, 4, 16, 64, 256] iters=100
+[hip] idle pad 56.1s to fill duration window
+[hip] wrote /home/negro/Projects/onnx/.ryzen_ai-1.7.1/bench/results/matrix_20260416_053730/test_model__pin_all/campaign_20260416_053730/phase_triad/hip_result.json
+[hip]      1 MiB: p50=0.0585ms bw=17.92 GB/s
+[hip]      4 MiB: p50=0.2511ms bw=16.704 GB/s
+[hip]     16 MiB: p50=1.2931ms bw=12.975 GB/s
+[hip]     64 MiB: p50=6.1886ms bw=10.844 GB/s
+[hip]    256 MiB: p50=23.6863ms bw=11.333 GB/s

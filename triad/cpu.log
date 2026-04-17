@@ -1,0 +1,5 @@
+[cpu] ort 1.23.3.dev20260320
+[cpu] session load: 0.10s providers=['CPUExecutionProvider']
+[cpu] waiting on barrier /home/negro/Projects/onnx/.ryzen_ai-1.7.1/bench/results/matrix_20260416_053730/test_model__pin_all/campaign_20260416_053730/phase_triad/go.barrier
+[cpu] barrier released
+{"summary": {"ep": "CPU", "iters": 1748, "p50": 33.538, "p95": 52.729, "ips": 29.12}}

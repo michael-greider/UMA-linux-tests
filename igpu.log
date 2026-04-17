@@ -1,0 +1,2 @@
+[gpu] ort 1.23.2 EP=MIGraphXExecutionProvider
+{"summary": {"ep": "GPU(MIGraphXExecutionProvider)", "iters": 19971, "p50": 2.91, "p95": 3.522, "ips": 332.89}}

@@ -1,0 +1,23 @@
+{
+  "label": "triad_npu",
+  "ep": "NPU",
+  "model": "/home/negro/Projects/onnx/.ryzen_ai-1.7.1/ryzen_ai-1.7.1/quicktest/test_model.onnx",
+  "iters": 25600,
+  "total_ms": 59975.97,
+  "throughput_ips": 426.84,
+  "p50_ms": 2.223,
+  "p95_ms": 3.571,
+  "p99_ms": 5.232,
+  "min_ms": 1.92,
+  "max_ms": 23.457,
+  "mean_ms": 2.343,
+  "ts_end_ms": 1776336357486,
+  "meta": {
+    "load_s": 3.45,
+    "providers": [
+      "VitisAIExecutionProvider",
+      "CPUExecutionProvider"
+    ],
+    "cache": "default"
+  }
+}

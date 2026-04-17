@@ -1,0 +1,62 @@
+{
+  "label": "triad_hip",
+  "ep": "HIP-buf",
+  "model": "hip-buffer-probe",
+  "iters": 2000,
+  "p50_ms": 0.0061,
+  "p95_ms": 0.0079,
+  "p99_ms": 0.0224,
+  "throughput_ips": 510.41,
+  "meta": {
+    "lib": "/opt/xilinx/xrt-hip/lib/libxrt_hip.so",
+    "device_count": 1,
+    "alloc_iters": 2000,
+    "bandwidth": {
+      "1": {
+        "iters": 100,
+        "p50_ms": 0.0585,
+        "p95_ms": 0.3172,
+        "min_ms": 0.0496,
+        "max_ms": 4.0874,
+        "bw_gbps_p50": 17.92
+      },
+      "4": {
+        "iters": 100,
+        "p50_ms": 0.2511,
+        "p95_ms": 4.8472,
+        "min_ms": 0.1987,
+        "max_ms": 7.3372,
+        "bw_gbps_p50": 16.704
+      },
+      "16": {
+        "iters": 100,
+        "p50_ms": 1.2931,
+        "p95_ms": 1.947,
+        "min_ms": 0.9751,
+        "max_ms": 2.4022,
+        "bw_gbps_p50": 12.975
+      },
+      "64": {
+        "iters": 100,
+        "p50_ms": 6.1886,
+        "p95_ms": 7.9429,
+        "min_ms": 4.8051,
+        "max_ms": 10.1294,
+        "bw_gbps_p50": 10.844
+      },
+      "256": {
+        "iters": 100,
+        "p50_ms": 23.6863,
+        "p95_ms": 46.9105,
+        "min_ms": 19.6439,
+        "max_ms": 62.2551,
+        "bw_gbps_p50": 11.333
+      }
+    },
+    "missing_symbols": [
+      "hipGetDevice",
+      "hipDeviceSynchronize"
+    ],
+    "wall_s": 3.92
+  }
+}

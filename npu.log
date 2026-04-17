@@ -1,0 +1,5 @@
+[npu] ort 1.23.3.dev20260320
+[npu] session load: 3.44s providers=['VitisAIExecutionProvider', 'CPUExecutionProvider']
+[npu] waiting on barrier /home/negro/Projects/onnx/.ryzen_ai-1.7.1/bench/results/campaign_20260416_045323/phase_triad/go.barrier
+[npu] barrier released
+{"summary": {"ep": "NPU", "iters": 29424, "p50": 1.992, "p95": 2.157, "ips": 490.53}}
